@@ -65,6 +65,41 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* My Styles */
+
+/* repeat styles */
+
+     /* header nav and footer nav */
+     header nav a, footer nav a {
+        text-decoration: none;
+     }
+
+/* header and header navigation */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem 0 2.3rem 0;
+    box-sizing: border-box;
+}
+header nav a{
+    color: inherit;
+}
+
+
+.nav-links-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.header-img-contianer{
+    margin-bottom: 1.5rem;
+}
+
+/* your styles */
 
 .container {
     width: 800px;
@@ -139,8 +174,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
-footer nav a {
+footer nav a{
     color: white;
-    text-decoration: none;
 }

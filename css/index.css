@@ -210,3 +210,38 @@ footer nav {
 footer nav a{
     color: white;
 }
+
+/* About Page */
+
+.about-gallery-image-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px dashed black;
+}
+
+.about-card{
+    border-bottom: 2px dashed black;
+    /* I used this fixed width because the images were already at this width */
+    width: 370px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about-card a{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+    color: black;
+
+}
+
+.about-card h2{
+    margin-top: 0.5rem;
+}

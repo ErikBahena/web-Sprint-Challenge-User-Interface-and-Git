@@ -65,6 +65,41 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* My Styles */
+
+/* repeat styles */
+
+     /* header nav and footer nav */
+     header nav a, footer nav a {
+        text-decoration: none;
+     }
+
+/* header and header navigation */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem 0 2.3rem 0;
+    box-sizing: border-box;
+}
+header nav a{
+    color: inherit;
+}
+
+
+.nav-links-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.header-img-contianer{
+    margin-bottom: 1.5rem;
+}
+
+/* your styles */
 
 .container {
     width: 800px;
@@ -89,6 +124,37 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+/* individual box styling */
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 
 .middle-content h2 {
     padding: 0 2%;
@@ -101,10 +167,12 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+
+/* changed this to any div inside the .boxes container so I could change the class name of box for every child to box1, box2, box3 etc. */
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -139,8 +207,65 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
-footer nav a {
+footer nav a{
     color: white;
+}
+
+/* About Page */
+
+/* About section styles */
+
+
+.about-title-and-p-container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about-gallery-image-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px dashed black;
+}
+
+.about-card{
+    border-bottom: 2px dashed black;
+    /* I used this fixed width because the images were already at this width */
+    width: 370px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about-card a{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
     text-decoration: none;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+    color: black;
+
+}
+
+.about-card h2{
+    margin-top: 0.5rem;
+}
+
+
+/* Call to action section styles */
+/* This is a repeat style but keeping them seperate just in case we want them to be different in the future */
+.call-to-action-content-container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.call-to-action-section h2{
+    margin-top: 2.5rem;
+}
+
+.call-to-action-section p{
+margin-bottom: 2.5em;
 }

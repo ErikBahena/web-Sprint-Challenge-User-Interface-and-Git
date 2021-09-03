@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+When you write html, you could just use divs for everything. Not that you should, but it's possible. The problem with that is when you need to find something in your html or screen readers are trying to go through your page. Problems will arrise, semantic HTML gives meaning to your html. For example, the body tag, the img tag, and the link tag. Just by reading these you can undersand what content is going to be inside those elements. The body tag will contain the body, the img tag will contain an image, and the link tag will contain a link. It's best practice to use semantic html to structure your page, allowing future developers to navigate your html with less difficulty, and screen readers to go through your page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    
+    display block is the default display type for elements like the p tag or h1. This display type means that your element will take up 100% of the availible space of its parent in the horizontle direction. Display inline is the default display type for elements like a or button. This display type means that your element will not take up an entire line or "100% of the availible space of its parent element", instead it will take up as much space as it's content. An example of an inline case would be putting a link inside a paragraph. The link will not break the rest of the paragraph. It will just take up the space it need to fit the name of the link. 
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are the content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items property works on the relative (to us) verticle axis of the element if the element is using flex-direction: row; If the flex-direction is column, then the align-items property aligns in the horizontal direction
+
+
 5. Explain why git is valuable to a team of developers.
+
+While develping code as developers do, there may be mistakes or a client did not like how a feature looks. The value of git is that it allows you revert to older versions of your code. It also allows multiple developers to work on different parts of your code base; choosing who can add code to the original codebase based on your criteria, like a code review.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -124,6 +124,37 @@ header nav a{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+/* individual box styling */
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 
 .middle-content h2 {
     padding: 0 2%;
@@ -136,10 +167,12 @@ header nav a{
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+
+/* changed this to any div inside the .boxes container so I could change the class name of box for every child to box1, box2, box3 etc. */
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;

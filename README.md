@@ -82,6 +82,8 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box (Note: inline styles are not acceptable. All styles should be written in your index.css file):
 
+
+
 * [ ] box1: `teal`
 * [ ] box2: `gold`
 * [ ] box3: `cadetblue`
